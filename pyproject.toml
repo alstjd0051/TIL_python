@@ -1,0 +1,24 @@
+[project]
+name = "freeboard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.14"
+dependencies = [
+    "beautifulsoup4",
+    "gensim",
+    "numpy",
+    "openpyxl",
+    "pandas",
+    "psutil",
+    "pygame",
+    "requests",
+    "schedule",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "nbconvert>=7.16.6",
+    "notebook>=7.0.0",
+]
