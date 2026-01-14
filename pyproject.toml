@@ -19,6 +19,7 @@ dependencies = [
     "pydantic>=2.12.5",
     "pygame",
     "requests",
+    "rich>=14.2.0",
     "schedule",
     "seaborn>=0.13.2",
     "selenium>=4.39.0",
