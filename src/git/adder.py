@@ -1,4 +1,7 @@
 # Do it Yourself(1)
 
-def add_two_numbers(a: int, b: int) -> int:
+def adder(a: int, b: int) -> int:
     return a + b
+
+if __name__ == '__main__':
+  print(adder(3,6))
