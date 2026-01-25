@@ -205,7 +205,7 @@ def generate_readme_markdown() -> str:
         f"- 클립 시간 총합: {seconds_to_time(int(total_clip_seconds))}",
         f"- 일자별 수강 시간 총합: {seconds_to_time(int(total_daily_seconds))}",
         "",
-        "## 연도 포함 수강 일자별 상세 내역 (✅ = 오늘)",
+        "## 연도 포함 수강 일자별 상세 내역",
         "",
         "| 수강 일자 | 파트명 | 클립명 | 클립 시간 합계 | 일자별 수강 시간 |",
         "|-----------|--------|--------|---------------|----------------|",
