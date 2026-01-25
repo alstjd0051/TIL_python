@@ -207,8 +207,8 @@ def generate_readme_markdown() -> str:
         "",
         "## 연도 포함 수강 일자별 상세 내역",
         "",
-        "| 수강 일자 | 파트명 | 클립명 | 클립 시간 합계 | 일자별 수강 시간 |",
-        "|-----------|--------|--------|---------------|----------------|",
+        "| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |",
+        "|-----------|--------|--------|----------------|",
     ]
 
     # 각 일자별 데이터 추가
@@ -227,7 +227,7 @@ def generate_readme_markdown() -> str:
         clip_name = clip_name.replace('\n', ' ').replace('|', '\\|')
 
         markdown_lines.append(
-            f"| {date_str} | {part_name} | {clip_name} | {row['클립 시간 합계']} | {row['일자별 수강 시간']} |"
+            f"| {date_str} | {part_name} | {clip_name} | {row['일자별 수강 시간']} |"
         )
 
     return "\n".join(markdown_lines)
