@@ -1,0 +1,1078 @@
+[
+  {
+    "text": "Top 10 - Python Libraries General use",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025#top-10-python-libraries---general-use"
+  },
+  {
+    "text": "Top 10 - AI/ML/Data",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025#top-10---aimldata"
+  },
+  {
+    "text": "Runners-up – General use",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025#runners-up--general-use"
+  },
+  {
+    "text": "Runners-up – AI/ML/Data",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025#runners-up--aimldata"
+  },
+  {
+    "text": "Long tail",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025#long-tail"
+  },
+  {
+    "text": "ty",
+    "url": "https://github.com/astral-sh/ty"
+  },
+  {
+    "text": "Astral",
+    "url": "https://astral.sh/"
+  },
+  {
+    "text": "Ruff",
+    "url": "https://docs.astral.sh/ruff/"
+  },
+  {
+    "text": "uv",
+    "url": "https://github.com/astral-sh/uv"
+  },
+  {
+    "text": "Salsa",
+    "url": "https://github.com/salsa-rs/salsa?utm_source=chatgpt.com"
+  },
+  {
+    "text": "pyrefly",
+    "url": "https://github.com/facebook/pyrefly"
+  },
+  {
+    "text": "complexipy",
+    "url": "https://github.com/rohaquinlop/complexipy"
+  },
+  {
+    "text": "cognitive complexity",
+    "url": "https://www.sonarsource.com/resources/cognitive-complexity/"
+  },
+  {
+    "text": "SonarSource",
+    "url": "https://www.sonarsource.com/"
+  },
+  {
+    "text": "Kreuzberg",
+    "url": "https://github.com/Goldziher/kreuzberg"
+  },
+  {
+    "text": "throttled-py",
+    "url": "https://github.com/ZhuoZhuoCrayon/throttled-py"
+  },
+  {
+    "text": "Flask-Limiter",
+    "url": "https://flask-limiter.readthedocs.io/en/stable/"
+  },
+  {
+    "text": "httptap",
+    "url": "https://github.com/ozeranskii/httptap"
+  },
+  {
+    "text": "httpcore",
+    "url": "https://github.com/encode/httpcore"
+  },
+  {
+    "text": "fastapi-guard",
+    "url": "https://github.com/rennf93/fastapi-guard"
+  },
+  {
+    "text": "modshim",
+    "url": "https://github.com/joouha/modshim"
+  },
+  {
+    "text": "Spec Kit",
+    "url": "https://github.com/github/spec-kit"
+  },
+  {
+    "text": "skylos",
+    "url": "https://github.com/duriantaco/skylos"
+  },
+  {
+    "text": "FastOpenAPI",
+    "url": "https://github.com/mr-fatalyst/fastopenapi"
+  },
+  {
+    "text": "AioHTTP",
+    "url": "https://docs.aiohttp.org/en/stable/"
+  },
+  {
+    "text": "Falcon",
+    "url": "https://falcon.readthedocs.io/en/stable/"
+  },
+  {
+    "text": "Flask",
+    "url": "https://flask.palletsprojects.com/en/stable/"
+  },
+  {
+    "text": "Quart",
+    "url": "https://quart.palletsprojects.com/en/latest/"
+  },
+  {
+    "text": "Sanic",
+    "url": "https://sanic.dev/en/"
+  },
+  {
+    "text": "Starlette",
+    "url": "https://starlette.dev/"
+  },
+  {
+    "text": "Tornado",
+    "url": "https://www.tornadoweb.org/en/stable/"
+  },
+  {
+    "text": "Django",
+    "url": "https://www.djangoproject.com/"
+  },
+  {
+    "text": "MCP Python SDK",
+    "url": "https://github.com/modelcontextprotocol/python-sdk"
+  },
+  {
+    "text": "FastMCP",
+    "url": "https://github.com/jlowin/fastmcp"
+  },
+  {
+    "text": "Anthropic",
+    "url": "https://www.anthropic.com/"
+  },
+  {
+    "text": "Prefect",
+    "url": "https://www.prefect.io/"
+  },
+  {
+    "text": "Token-Oriented Object Notation (TOON)",
+    "url": "https://github.com/toon-format/toon"
+  },
+  {
+    "text": "Deep Agents",
+    "url": "https://github.com/langchain-ai/deepagents"
+  },
+  {
+    "text": "LangChain",
+    "url": "https://www.langchain.com/"
+  },
+  {
+    "text": "Claude Code",
+    "url": "https://www.claude.com/product/claude-code"
+  },
+  {
+    "text": "Manus",
+    "url": "https://manus.im/"
+  },
+  {
+    "text": "LangGraph",
+    "url": "https://www.langchain.com/langgraph"
+  },
+  {
+    "text": "smolagents",
+    "url": "https://github.com/huggingface/smolagents"
+  },
+  {
+    "text": "Hugging Face",
+    "url": "https://huggingface.co/"
+  },
+  {
+    "text": "LlamaIndex Workflows",
+    "url": "https://github.com/run-llama/workflows-py"
+  },
+  {
+    "text": "Batchata",
+    "url": "https://github.com/agamm/batchata"
+  },
+  {
+    "text": "MarkItDown",
+    "url": "https://github.com/microsoft/markitdown"
+  },
+  {
+    "text": "Microsoft",
+    "url": "https://www.microsoft.com/"
+  },
+  {
+    "text": "Data Formulator",
+    "url": "https://github.com/microsoft/data-formulator"
+  },
+  {
+    "text": "LangExtract",
+    "url": "https://github.com/google/langextract"
+  },
+  {
+    "text": "GeoAI",
+    "url": "https://github.com/opengeos/geoai"
+  },
+  {
+    "text": "Open Geospatial Solutions",
+    "url": "https://github.com/opengeos"
+  },
+  {
+    "text": "PyTorch",
+    "url": "https://huggingface.co/docs/transformers/en/index"
+  },
+  {
+    "text": "PyTorch Segmentation Models",
+    "url": "https://github.com/qubvel-org/segmentation_models.pytorch"
+  },
+  {
+    "text": "Leafmap",
+    "url": "https://github.com/opengeos/leafmap"
+  },
+  {
+    "text": "opengeoai.org",
+    "url": "http://opengeoai.org/"
+  },
+  {
+    "text": "AuthTuna",
+    "url": "https://github.com/shashstormer/AuthTuna"
+  },
+  {
+    "text": "AuthTuna GitHub stars",
+    "url": "https://img.shields.io/github/stars/shashstormer/AuthTuna?style=social"
+  },
+  {
+    "text": "FastRTC",
+    "url": "https://github.com/gradio-app/fastrtc"
+  },
+  {
+    "text": "FastRTC GitHub stars",
+    "url": "https://img.shields.io/github/stars/gradio-app/fastrtc?style=social"
+  },
+  {
+    "text": "hexora",
+    "url": "https://github.com/rushter/hexora"
+  },
+  {
+    "text": "hexora GitHub stars",
+    "url": "https://img.shields.io/github/stars/rushter/hexora?style=social"
+  },
+  {
+    "text": "opentemplate",
+    "url": "https://github.com/open-nudge/opentemplate"
+  },
+  {
+    "text": "opentemplate GitHub stars",
+    "url": "https://img.shields.io/github/stars/open-nudge/opentemplate?style=social"
+  },
+  {
+    "text": "PyByntic",
+    "url": "https://github.com/sijokun/PyByntic"
+  },
+  {
+    "text": "PyByntic GitHub stars",
+    "url": "https://img.shields.io/github/stars/sijokun/PyByntic?style=social"
+  },
+  {
+    "text": "pyochain",
+    "url": "https://github.com/OutSquareCapital/pyochain"
+  },
+  {
+    "text": "pyochain GitHub stars",
+    "url": "https://img.shields.io/github/stars/OutSquareCapital/pyochain?style=social"
+  },
+  {
+    "text": "Pyrefly GitHub stars",
+    "url": "https://img.shields.io/github/stars/facebook/pyrefly?style=social"
+  },
+  {
+    "text": "reaktiv",
+    "url": "https://github.com/buiapp/reaktiv"
+  },
+  {
+    "text": "reaktiv GitHub stars",
+    "url": "https://img.shields.io/github/stars/buiapp/reaktiv?style=social"
+  },
+  {
+    "text": "Scraperr",
+    "url": "https://github.com/jaypyles/Scraperr"
+  },
+  {
+    "text": "Scraperr GitHub stars",
+    "url": "https://img.shields.io/github/stars/jaypyles/Scraperr?style=social"
+  },
+  {
+    "text": "Skills",
+    "url": "https://github.com/anthropics/skills"
+  },
+  {
+    "text": "SKILL.md",
+    "url": "http://skill.md/"
+  },
+  {
+    "text": "Skills GitHub stars",
+    "url": "https://img.shields.io/github/stars/anthropics/skills?style=social"
+  },
+  {
+    "text": "textcase",
+    "url": "https://github.com/zobweyt/textcase"
+  },
+  {
+    "text": "textcase GitHub stars",
+    "url": "https://img.shields.io/github/stars/zobweyt/textcase?style=social"
+  },
+  {
+    "text": "Agent Development Kit (ADK)",
+    "url": "https://github.com/google/adk-python"
+  },
+  {
+    "text": "Agent Development Kit (ADK) GitHub stars",
+    "url": "https://img.shields.io/github/stars/google/adk-python?style=social"
+  },
+  {
+    "text": "Archon",
+    "url": "https://github.com/coleam00/Archon"
+  },
+  {
+    "text": "Archon GitHub stars",
+    "url": "https://img.shields.io/github/stars/coleam00/Archon?style=social"
+  },
+  {
+    "text": "Attachments",
+    "url": "https://github.com/MaximeRivest/attachments"
+  },
+  {
+    "text": "Attachments GitHub stars",
+    "url": "https://img.shields.io/github/stars/MaximeRivest/attachments?style=social"
+  },
+  {
+    "text": "Claude Agent SDK",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python"
+  },
+  {
+    "text": "Claude Agent SDK GitHub stars",
+    "url": "https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=social"
+  },
+  {
+    "text": "df2tables",
+    "url": "https://github.com/ts-kontakt/df2tables"
+  },
+  {
+    "text": "df2tables GitHub stars",
+    "url": "https://img.shields.io/github/stars/ts-kontakt/df2tables?style=social"
+  },
+  {
+    "text": "FlashMLA",
+    "url": "https://github.com/deepseek-ai/FlashMLA"
+  },
+  {
+    "text": "FlashMLA GitHub stars",
+    "url": "https://img.shields.io/github/stars/deepseek-ai/FlashMLA?style=social"
+  },
+  {
+    "text": "Flowfile",
+    "url": "https://github.com/Edwardvaneechoud/Flowfile"
+  },
+  {
+    "text": "Flowfile GitHub stars",
+    "url": "https://img.shields.io/github/stars/Edwardvaneechoud/Flowfile?style=social"
+  },
+  {
+    "text": "Gitingest",
+    "url": "https://github.com/coderamp-labs/gitingest"
+  },
+  {
+    "text": "Gitingest GitHub stars",
+    "url": "https://img.shields.io/github/stars/coderamp-labs/gitingest?style=social"
+  },
+  {
+    "text": "gpt-oss",
+    "url": "https://github.com/openai/gpt-oss"
+  },
+  {
+    "text": "gpt-oss GitHub stars",
+    "url": "https://img.shields.io/github/stars/openai/gpt-oss?style=social"
+  },
+  {
+    "text": "MaxText",
+    "url": "https://github.com/AI-Hypercomputer/maxtext"
+  },
+  {
+    "text": "MaxText GitHub stars",
+    "url": "https://img.shields.io/github/stars/AI-Hypercomputer/maxtext?style=social"
+  },
+  {
+    "text": "Memvid",
+    "url": "https://github.com/Olow304/memvid"
+  },
+  {
+    "text": "Memvid GitHub stars",
+    "url": "https://img.shields.io/github/stars/Olow304/memvid?style=social"
+  },
+  {
+    "text": "nanochat",
+    "url": "https://github.com/karpathy/nanochat"
+  },
+  {
+    "text": "nanochat GitHub stars",
+    "url": "https://img.shields.io/github/stars/karpathy/nanochat?style=social"
+  },
+  {
+    "text": "OmniParser",
+    "url": "https://github.com/microsoft/OmniParser"
+  },
+  {
+    "text": "OmniParser GitHub stars",
+    "url": "https://img.shields.io/github/stars/microsoft/OmniParser?style=social"
+  },
+  {
+    "text": "OpenAI Agents SDK",
+    "url": "https://github.com/openai/openai-agents-python"
+  },
+  {
+    "text": "OpenAI Agents SDK GitHub stars",
+    "url": "https://img.shields.io/github/stars/openai/openai-agents-python?style=social"
+  },
+  {
+    "text": "OpenManus",
+    "url": "https://github.com/FoundationAgents/OpenManus"
+  },
+  {
+    "text": "OpenManus GitHub stars",
+    "url": "https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=social"
+  },
+  {
+    "text": "OWL",
+    "url": "https://github.com/camel-ai/owl"
+  },
+  {
+    "text": "OWL GitHub stars",
+    "url": "https://img.shields.io/github/stars/camel-ai/owl?style=social"
+  },
+  {
+    "text": "Parlant",
+    "url": "https://github.com/emcie-co/parlant"
+  },
+  {
+    "text": "Parlant GitHub stars",
+    "url": "https://img.shields.io/github/stars/emcie-co/parlant?style=social"
+  },
+  {
+    "text": "TensorFlow Optimizers Collection",
+    "url": "https://github.com/NoteDance/optimizers"
+  },
+  {
+    "text": "TensorFlow Optimizers Collection GitHub stars",
+    "url": "https://img.shields.io/github/stars/NoteDance/optimizers?style=social"
+  },
+  {
+    "text": "trackio",
+    "url": "https://github.com/gradio-app/trackio"
+  },
+  {
+    "text": "trackio GitHub stars",
+    "url": "https://img.shields.io/github/stars/gradio-app/trackio?style=social"
+  },
+  {
+    "text": "agex",
+    "url": "https://github.com/ashenfad/agex"
+  },
+  {
+    "text": "agex-ui",
+    "url": "https://github.com/ashenfad/agex-ui"
+  },
+  {
+    "text": "Grasp Agents",
+    "url": "https://github.com/grasp-technologies/grasp-agents"
+  },
+  {
+    "text": "IntentGraph",
+    "url": "https://github.com/Raytracer76/IntentGraph"
+  },
+  {
+    "text": "Linden",
+    "url": "https://github.com/matstech/linden"
+  },
+  {
+    "text": "mcp-agent",
+    "url": "https://github.com/lastmile-ai/mcp-agent"
+  },
+  {
+    "text": "Notte",
+    "url": "https://github.com/nottelabs/notte"
+  },
+  {
+    "text": "Pybotchi",
+    "url": "https://github.com/amadolid/pybotchi"
+  },
+  {
+    "text": "RESK-LLM",
+    "url": "https://github.com/Resk-Security/Resk-LLM"
+  },
+  {
+    "text": "Rival AI",
+    "url": "https://github.com/sarthakrastogi/rival"
+  },
+  {
+    "text": "Pipelex",
+    "url": "https://github.com/Pipelex/pipelex"
+  },
+  {
+    "text": "RocketRAG",
+    "url": "https://github.com/TheLion-ai/RocketRAG"
+  },
+  {
+    "text": "CMQ",
+    "url": "https://github.com/ocadotechnology/cmq"
+  },
+  {
+    "text": "throttlekit",
+    "url": "https://github.com/rowds/throttlekit"
+  },
+  {
+    "text": "transfunctions",
+    "url": "https://github.com/pomponchik/transfunctions"
+  },
+  {
+    "text": "Wove",
+    "url": "https://github.com/curvedinf/wove"
+  },
+  {
+    "text": "TursoPy",
+    "url": "https://github.com/Marcus-Peterson/tursopy"
+  },
+  {
+    "text": "Envyte",
+    "url": "https://github.com/Contemelia/Envyte"
+  },
+  {
+    "text": "FastAPI Cloud CLI",
+    "url": "https://github.com/fastapilabs/fastapi-cloud-cli"
+  },
+  {
+    "text": "gs-batch-pdf",
+    "url": "https://github.com/kompre/gs-batch"
+  },
+  {
+    "text": "Mininterface",
+    "url": "https://github.com/CZ-NIC/mininterface"
+  },
+  {
+    "text": "SSHUP",
+    "url": "https://github.com/WMRamadan/sshup-tui"
+  },
+  {
+    "text": "Otary",
+    "url": "https://github.com/poupeaua/otary"
+  },
+  {
+    "text": "fastquadtree",
+    "url": "https://github.com/Elan456/fastquadtree"
+  },
+  {
+    "text": "molabel",
+    "url": "https://github.com/koaning/molabel"
+  },
+  {
+    "text": "Python Pest",
+    "url": "https://github.com/jg-rp/python-pest"
+  },
+  {
+    "text": "SeedLayer",
+    "url": "https://github.com/francoisnt/seedlayer"
+  },
+  {
+    "text": "SPDL",
+    "url": "https://github.com/facebookresearch/spdl"
+  },
+  {
+    "text": "Swizzle",
+    "url": "https://github.com/janthmueller/swizzle"
+  },
+  {
+    "text": "Archivey",
+    "url": "https://github.com/davitf/archivey"
+  },
+  {
+    "text": "KickApi",
+    "url": "https://github.com/Enmn/KickApi"
+  },
+  {
+    "text": "pyro-mysql",
+    "url": "https://github.com/elbaro/pyro-mysql"
+  },
+  {
+    "text": "StupidSimple Dataclasses Codec",
+    "url": "https://github.com/stupid-simple/dataclasses-codec"
+  },
+  {
+    "text": "calc-workbook",
+    "url": "https://github.com/a-bentofreire/calc-workbook"
+  },
+  {
+    "text": "Elusion",
+    "url": "https://github.com/DataBora/elusion"
+  },
+  {
+    "text": "Eruo Data Studio",
+    "url": "https://github.com/naruaika/eruo-data-studio"
+  },
+  {
+    "text": "lilpipe",
+    "url": "https://github.com/andrewruba/lilpipe"
+  },
+  {
+    "text": "Parmancer",
+    "url": "https://github.com/parmancer/parmancer"
+  },
+  {
+    "text": "PipeFunc",
+    "url": "https://github.com/pipefunc/pipefunc"
+  },
+  {
+    "text": "Pipevine",
+    "url": "https://github.com/arrno/pipevine"
+  },
+  {
+    "text": "PydSQL",
+    "url": "https://github.com/pranavkp71/PydSQL"
+  },
+  {
+    "text": "trendspyg",
+    "url": "https://github.com/flack0x/trendspyg"
+  },
+  {
+    "text": "smartcols",
+    "url": "https://github.com/Dinis-Esteves/pandas-smartcols"
+  },
+  {
+    "text": "Coffy",
+    "url": "https://github.com/nsarathy/Coffy"
+  },
+  {
+    "text": "MotionSaver",
+    "url": "https://github.com/chinmay-sawant/MotionSaver"
+  },
+  {
+    "text": "WinUp",
+    "url": "https://github.com/mebaadwaheed/winup"
+  },
+  {
+    "text": "Zypher",
+    "url": "https://github.com/Yamil-Serrano/Zypher"
+  },
+  {
+    "text": "Erys",
+    "url": "https://github.com/natibek/erys"
+  },
+  {
+    "text": "ell",
+    "url": "https://github.com/MadcowD/ell"
+  },
+  {
+    "text": "flowmark",
+    "url": "https://github.com/jlevy/flowmark"
+  },
+  {
+    "text": "mcputil",
+    "url": "https://github.com/RussellLuo/mcputil"
+  },
+  {
+    "text": "OpenAI Harmony",
+    "url": "https://github.com/openai/harmony"
+  },
+  {
+    "text": "ProML (Prompt Markup Language)",
+    "url": "https://github.com/Caripson/ProML"
+  },
+  {
+    "text": "Prompt Components",
+    "url": "https://github.com/jamesaud/prompt-components"
+  },
+  {
+    "text": "Prompture",
+    "url": "https://github.com/jhd3197/Prompture"
+  },
+  {
+    "text": "SimplePrompts",
+    "url": "https://github.com/Infrared1029/simpleprompts"
+  },
+  {
+    "text": "Universal Tool Calling Protocol (UTCP)",
+    "url": "https://github.com/universal-tool-calling-protocol/python-utcp"
+  },
+  {
+    "text": "Fast-LLM",
+    "url": "https://github.com/ServiceNow/Fast-LLM"
+  },
+  {
+    "text": "TorchSystem",
+    "url": "https://github.com/entropy-flux/TorchSystem"
+  },
+  {
+    "text": "Tsururu (TSForesight)",
+    "url": "https://github.com/sb-ai-lab/tsururu"
+  },
+  {
+    "text": "DL Type",
+    "url": "https://github.com/stackav-oss/dltype"
+  },
+  {
+    "text": "Python Testing Tools MCP Server",
+    "url": "https://github.com/jazzberry-ai/python-testing-mcp"
+  },
+  {
+    "text": "treemind",
+    "url": "https://github.com/sametcopur/treemind"
+  },
+  {
+    "text": "Verdict",
+    "url": "https://github.com/haizelabs/verdict"
+  },
+  {
+    "text": "MCP Kit Python",
+    "url": "https://github.com/agentiqs/mcp-kit-python"
+  },
+  {
+    "text": "npcpy",
+    "url": "https://github.com/NPC-Worldwide/npcpy"
+  },
+  {
+    "text": "doespythonhaveit",
+    "url": "https://github.com/hasboi/doespythonhaveit-api"
+  },
+  {
+    "text": "tenets",
+    "url": "https://github.com/jddunn/tenets"
+  },
+  {
+    "text": "Cap'n Web Python",
+    "url": "https://github.com/abilian/py-capnweb"
+  },
+  {
+    "text": "httpmorph",
+    "url": "https://github.com/arman-bd/httpmorph"
+  },
+  {
+    "text": "Miniappi",
+    "url": "https://github.com/Miksus/miniappi-python"
+  },
+  {
+    "text": "PyWebTransport",
+    "url": "https://github.com/lemonsterfy/pywebtransport"
+  },
+  {
+    "text": "robinzhon",
+    "url": "https://github.com/rohaquinlop/robinzhon"
+  },
+  {
+    "text": "WebPath",
+    "url": "https://github.com/duriantaco/webpath"
+  },
+  {
+    "text": "thoad",
+    "url": "https://github.com/mntsx/thoad"
+  },
+  {
+    "text": "Clockwork",
+    "url": "https://github.com/kessler-frost/clockwork"
+  },
+  {
+    "text": "Cybersecurity Psychology Framework (CPF)",
+    "url": "https://github.com/xbeat/CPF"
+  },
+  {
+    "text": "darkcore",
+    "url": "https://github.com/minamorl/darkcore"
+  },
+  {
+    "text": "DiscoveryLastFM",
+    "url": "https://github.com/MrRobotoGit/DiscoveryLastFM"
+  },
+  {
+    "text": "Fusebox",
+    "url": "https://github.com/ftbits/fusebox"
+  },
+  {
+    "text": "Injectipy",
+    "url": "https://github.com/Wimonder/injectipy"
+  },
+  {
+    "text": "Klyne",
+    "url": "https://github.com/psincraian/klyne"
+  },
+  {
+    "text": "MIDI Scripter",
+    "url": "https://github.com/Maboroshy/midi-scripter"
+  },
+  {
+    "text": "numeth",
+    "url": "https://github.com/AbhisumatK/numeth-Numerical-Methods-Library"
+  },
+  {
+    "text": "PAR CLI TTS",
+    "url": "https://github.com/paulrobello/par-cli-tts"
+  },
+  {
+    "text": "pycaps",
+    "url": "https://github.com/francozanardi/pycaps"
+  },
+  {
+    "text": "PyDepends",
+    "url": "https://github.com/entropy-flux/PyDepends"
+  },
+  {
+    "text": "Pylan",
+    "url": "https://github.com/TimoKats/pylan"
+  },
+  {
+    "text": "Python for Nonprofits",
+    "url": "https://github.com/kburchfiel/pfn"
+  },
+  {
+    "text": "Quantium",
+    "url": "https://github.com/parneetsingh022/quantium"
+  },
+  {
+    "text": "Reduino",
+    "url": "https://github.com/Jackhammer9/Reduino"
+  },
+  {
+    "text": "TiBi",
+    "url": "https://github.com/rodinalex/TiBi"
+  },
+  {
+    "text": "Torch Lens Maker",
+    "url": "https://github.com/victorpoughon/torchlensmaker"
+  },
+  {
+    "text": "torch-molecule",
+    "url": "https://github.com/liugangcode/torch-molecule"
+  },
+  {
+    "text": "TurtleSC",
+    "url": "https://github.com/asweigart/turtlesc"
+  },
+  {
+    "text": "bbox-align",
+    "url": "https://github.com/doctor-entropy/bbox-align"
+  },
+  {
+    "text": "Morphik",
+    "url": "https://github.com/morphik-org/morphik-core"
+  },
+  {
+    "text": "OCR-StringDist",
+    "url": "https://github.com/NiklasvonM/ocr-stringdist"
+  },
+  {
+    "text": "ConfOpt",
+    "url": "https://github.com/rick12000/confopt"
+  },
+  {
+    "text": "Functioneer",
+    "url": "https://github.com/qthedoc/functioneer"
+  },
+  {
+    "text": "generalized-dual",
+    "url": "https://github.com/LukaLavs/Generalized-Dual"
+  },
+  {
+    "text": "Solvex",
+    "url": "https://github.com/pranavkp71/solvex"
+  },
+  {
+    "text": "python-cq",
+    "url": "https://github.com/100nm/python-cq"
+  },
+  {
+    "text": "cogeol",
+    "url": "https://github.com/open-nudge/cogeol"
+  },
+  {
+    "text": "comver",
+    "url": "https://github.com/open-nudge/comver"
+  },
+  {
+    "text": "dirstree",
+    "url": "https://github.com/pomponchik/dirstree"
+  },
+  {
+    "text": "loadfig",
+    "url": "https://github.com/open-nudge/loadfig"
+  },
+  {
+    "text": "pipask",
+    "url": "https://github.com/feynmanix/pipask"
+  },
+  {
+    "text": "pywinselect",
+    "url": "https://github.com/offerrall/pywinselect"
+  },
+  {
+    "text": "TripWire",
+    "url": "https://github.com/Daily-Nerd/TripWire"
+  },
+  {
+    "text": "veld",
+    "url": "https://github.com/BranBushes/veld-fm"
+  },
+  {
+    "text": "venv-rs",
+    "url": "https://github.com/Ardnys/venv-rs"
+  },
+  {
+    "text": "venv-stack",
+    "url": "https://github.com/ignis-sec/venv-stack"
+  },
+  {
+    "text": "dowhen",
+    "url": "https://github.com/gaogaotiantian/dowhen"
+  },
+  {
+    "text": "GrapeQL",
+    "url": "https://github.com/AleksaZatezalo/GrapeQL"
+  },
+  {
+    "text": "lintkit",
+    "url": "https://github.com/open-nudge/lintkit"
+  },
+  {
+    "text": "notata",
+    "url": "https://github.com/alonfnt/notata"
+  },
+  {
+    "text": "pretty-dir",
+    "url": "https://github.com/douglassimonsen/ppdir"
+  },
+  {
+    "text": "Request Speed Test",
+    "url": "https://github.com/lafftar/requestSpeedTest"
+  },
+  {
+    "text": "structlog-journald",
+    "url": "https://github.com/hongquan/structlog-journald"
+  },
+  {
+    "text": "Trevis",
+    "url": "https://github.com/cabralpinto/trevis"
+  },
+  {
+    "text": "Temporals",
+    "url": "https://github.com/dimitarOnGithub/temporals"
+  },
+  {
+    "text": "detroit",
+    "url": "https://github.com/bourbonut/detroit"
+  },
+  {
+    "text": "RowDump",
+    "url": "https://github.com/markjen/rowdump"
+  },
+  {
+    "text": "proxyutils",
+    "url": "https://github.com/meliksahbozkurt/proxyutils"
+  },
+  {
+    "text": "PyBA",
+    "url": "https://github.com/FauvidoTechnologies/PyBrowserAutomation"
+  },
+  {
+    "text": "AirFlask",
+    "url": "https://github.com/naitikmundra/AirFlask"
+  },
+  {
+    "text": "APIException",
+    "url": "https://github.com/akutayural/APIException"
+  },
+  {
+    "text": "ecma426",
+    "url": "https://github.com/bugsink/ecma426"
+  },
+  {
+    "text": "Fast Channels",
+    "url": "https://github.com/huynguyengl99/fast-channels"
+  },
+  {
+    "text": "fastapi-async-storages",
+    "url": "https://github.com/stabldev/fastapi-async-storages"
+  },
+  {
+    "text": "Func To Web",
+    "url": "https://github.com/offerrall/FuncToWeb"
+  },
+  {
+    "text": "html2pic",
+    "url": "https://github.com/francozanardi/html2pic"
+  },
+  {
+    "text": "Lazy Ninja",
+    "url": "https://github.com/AghastyGD/lazy-ninja"
+  },
+  {
+    "text": "panel-material-ui",
+    "url": "https://github.com/panel-extensions/panel-material-ui"
+  },
+  {
+    "text": "pyeasydeploy",
+    "url": "https://github.com/offerrall/pyeasydeploy"
+  },
+  {
+    "text": "Python Hiccup",
+    "url": "https://github.com/DavidVujic/python-hiccup"
+  },
+  {
+    "text": "WEP — Web Embedded Python",
+    "url": "https://github.com/prodev717/web-embedded-python"
+  },
+  {
+    "text": "Let's talk",
+    "url": "https://tryolabs.com/contact"
+  },
+  {
+    "text": "hello@tryolabs.com",
+    "url": "https://tryolabs.com/blog/top-python-libraries-2025/mailto:hello@tryolabs.com"
+  },
+  {
+    "text": "Custom AI",
+    "url": "https://tryolabs.com/services/custom-ai"
+  },
+  {
+    "text": "AI Adoption & Strategy",
+    "url": "https://tryolabs.com/services/ai-adoption"
+  },
+  {
+    "text": "MLOps & LLMOps",
+    "url": "https://tryolabs.com/services/mlops"
+  },
+  {
+    "text": "Data Engineering",
+    "url": "https://tryolabs.com/services/data-engineering"
+  },
+  {
+    "text": "Video Analytics",
+    "url": "https://tryolabs.com/services/video-analytics"
+  },
+  {
+    "text": "AI 4 Good",
+    "url": "https://tryolabs.com/ai-for-good"
+  },
+  {
+    "text": "Blog",
+    "url": "https://tryolabs.com/blog"
+  },
+  {
+    "text": "Industry cases",
+    "url": "https://tryolabs.com/customers"
+  },
+  {
+    "text": "About us",
+    "url": "https://tryolabs.com/about"
+  },
+  {
+    "text": "Partnerships",
+    "url": "https://tryolabs.com/partnerships"
+  },
+  {
+    "text": "Careers",
+    "url": "https://tryolabs.com/careers"
+  },
+  {
+    "text": "Terms and Conditions",
+    "url": "https://tryolabs.com/terms"
+  },
+  {
+    "text": "Get the playbookFrom AI hype tobusiness outcomes",
+    "url": "https://app-na1.hubspotdocuments.com/documents/19722003/view/1050562940?accessId=ef2191"
+  }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Kim Crawl",
+        "age": 28,
+        "hobby": "Painting",
+        "apply": ["Amazon", "Microsoft"]
+    },
+    {
+        "id": 2,
+        "name": "Lee Pai",
+        "age": 34,
+        "hobby": "Music",
+        "apply": ["Meta", "X", "Linkedin"]
+    }
+]
