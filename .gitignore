@@ -1,1 +1,4 @@
 *.pdf
+*.task
+**/crawled_python_libraries_*.csv
+.env
