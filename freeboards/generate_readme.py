@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import re
 
 
@@ -144,8 +145,10 @@ def generate_readme_markdown() -> str:
     df['수강 일자_날짜객체'] = df['수강 일자'].apply(parse_korean_date)
     df['수강 일자_연도포함'] = df['수강 일자'].apply(format_date_with_year)
 
-    # 오늘 날짜
-    today = datetime.now().date()
+    # 오늘 날짜 (한국 시간대 기준)
+    # GitHub Actions는 UTC를 사용하므로 한국 시간대를 명시적으로 설정
+    korea_tz = ZoneInfo("Asia/Seoul")
+    today = datetime.now(korea_tz).date()
 
     # 오늘 날짜와 일치하는 행 확인
     df['오늘_일치'] = df['수강 일자_날짜객체'].apply(
