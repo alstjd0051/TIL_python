@@ -211,7 +211,8 @@ def generate_readme_markdown() -> str:
     # 각 일자별 데이터 추가
     for _, row in date_summary_updated.iterrows():
         date_str = row['수강 일자']
-        if row['오늘_일치']:
+        # boolean 값이 확실히 처리되도록 bool()로 변환
+        if bool(row['오늘_일치']):
             date_str = f"✅ {date_str}"
 
         # 파트명과 챕터명이 너무 길면 줄임표로 표시
