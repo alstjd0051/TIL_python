@@ -9,12 +9,15 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 저장소에 커밋/푸시할 권한 필요
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # 전체 히스토리 가져오기
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -35,8 +38,15 @@ jobs:
           uv run python freeboards/generate_readme.py
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || (git commit -m "자동 업데이트: 수강 일정 README 업데이트 [skip ci]" && git push)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "자동 업데이트: 수강 일정 README 업데이트 [skip ci]"
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          fi
