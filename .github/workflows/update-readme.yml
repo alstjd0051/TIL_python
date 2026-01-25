@@ -2,22 +2,21 @@ name: Update README with Schedule
 
 on:
   schedule:
-    # 매주 평일(월~금) 한국시간 오전 9시 (UTC 00:00, KST = UTC+9)에 실행
-    - cron: '0 0 * * 1-5'
-  workflow_dispatch: # 수동 실행도 가능하도록
+    - cron: "0 0 * * 1-5"
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 저장소에 커밋/푸시할 권한 필요
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0  # 전체 히스토리 가져오기
+          fetch-depth: 0
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
