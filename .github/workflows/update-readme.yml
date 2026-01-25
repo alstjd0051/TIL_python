@@ -38,8 +38,6 @@ jobs:
           uv run python freeboards/generate_readme.py
 
       - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -48,5 +46,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "자동 업데이트: 수강 일정 README 업데이트 [skip ci]"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push origin HEAD:main
           fi
