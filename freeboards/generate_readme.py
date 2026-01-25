@@ -162,7 +162,7 @@ def generate_readme_markdown() -> str:
         return "# 수강 일정\n\n⚠️ 수강 일자가 기록된 데이터가 없습니다.\n"
 
     # 수강 일자별로 클립 시간 합산 (연도 포함된 날짜로 그룹화)
-    # 파트명과 챕터명은 고유한 값들을 콤마로 구분해서 나열
+    # 파트명과 클립명은 고유한 값들을 콤마로 구분해서 나열
     def unique_join(series):
         """고유한 값들을 콤마로 구분해서 반환"""
         unique_values = series.dropna().unique()
@@ -174,10 +174,10 @@ def generate_readme_markdown() -> str:
         '일자별 수강 시간(초)': 'first',
         '수강 일자_날짜객체': 'first',
         '파트명': unique_join,
-        '챕터명': unique_join
+        '클립명': unique_join
     }).reset_index()
 
-    date_summary_updated.columns = ['수강 일자', '클립 시간 합계(초)', '일자별 수강 시간(초)', '날짜객체', '파트명', '챕터명']
+    date_summary_updated.columns = ['수강 일자', '클립 시간 합계(초)', '일자별 수강 시간(초)', '날짜객체', '파트명', '클립명']
     date_summary_updated['클립 시간 합계'] = date_summary_updated['클립 시간 합계(초)'].apply(seconds_to_time)
     date_summary_updated['일자별 수강 시간'] = date_summary_updated['일자별 수강 시간(초)'].apply(seconds_to_time)
 
@@ -207,7 +207,7 @@ def generate_readme_markdown() -> str:
         "",
         "## 연도 포함 수강 일자별 상세 내역 (✅ = 오늘)",
         "",
-        "| 수강 일자 | 파트명 | 챕터명 | 클립 시간 합계 | 일자별 수강 시간 |",
+        "| 수강 일자 | 파트명 | 클립명 | 클립 시간 합계 | 일자별 수강 시간 |",
         "|-----------|--------|--------|---------------|----------------|",
     ]
 
@@ -218,16 +218,16 @@ def generate_readme_markdown() -> str:
         if bool(row['오늘_일치']):
             date_str = f"✅ {date_str}"
 
-        # 파트명과 챕터명이 너무 길면 줄임표로 표시
+        # 파트명과 클립명이 너무 길면 줄임표로 표시
         part_name = str(row['파트명']) if pd.notna(row['파트명']) else ''
-        chapter_name = str(row['챕터명']) if pd.notna(row['챕터명']) else ''
+        clip_name = str(row['클립명']) if pd.notna(row['클립명']) else ''
 
         # 마크다운 테이블에서 파이프 문자는 이스케이프 필요 없지만, 줄바꿈은 제거
         part_name = part_name.replace('\n', ' ').replace('|', '\\|')
-        chapter_name = chapter_name.replace('\n', ' ').replace('|', '\\|')
+        clip_name = clip_name.replace('\n', ' ').replace('|', '\\|')
 
         markdown_lines.append(
-            f"| {date_str} | {part_name} | {chapter_name} | {row['클립 시간 합계']} | {row['일자별 수강 시간']} |"
+            f"| {date_str} | {part_name} | {clip_name} | {row['클립 시간 합계']} | {row['일자별 수강 시간']} |"
         )
 
     return "\n".join(markdown_lines)
