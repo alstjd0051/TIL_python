@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "uv"
 
       - name: Install dependencies
         run: |
@@ -59,6 +58,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "자동 업데이트: 수강 일정 README 업데이트 [skip ci]"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
