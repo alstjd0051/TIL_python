@@ -33,3 +33,9 @@ dev = [
     "nbconvert>=7.16.6",
     "notebook>=7.0.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "TIL/eda_basic_practice",
+    "TIL/ml",
+]
