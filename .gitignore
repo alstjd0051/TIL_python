@@ -2,3 +2,4 @@
 *.task
 **/crawled_python_libraries_*.csv
 .env
+TIL/ml/eda_basic_practice.ipynb
