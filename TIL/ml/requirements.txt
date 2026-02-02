@@ -7,6 +7,7 @@ debugpy==1.8.19
 decorator==5.2.1
 executing==2.2.1
 fonttools==4.61.1
+graphviz==0.21
 ipykernel==7.1.0
 ipython==9.9.0
 ipython-pygments-lexers==1.1.1
