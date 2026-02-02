@@ -1,6 +1,6 @@
 # 수강 일정
 
-**업데이트 날짜**: 2026년 02월 02일
+**업데이트 날짜**: 2026년 02월 03일
 
 ## 전체 요약
 
@@ -40,8 +40,8 @@
 | 2026년 01월 28일 (수) | Machine Learning Basic | Ch03-04_선형회귀 모델링 방법론 실습 | 1:48:50 |
 | 2026년 01월 29일 (목) | Machine Learning Basic | Ch04-04_데이터의 군집화 방법론 | 2:28:11 |
 | 2026년 01월 30일 (금) | Machine Learning Basic | Ch05-04_협업 필터링을 활용한 평점 예측 | 1:33:55 |
-| ✅ 2026년 02월 02일 (월) | Machine Learning Basic | Ch06-03_기초 정량평가 방법론 | 1:27:58 |
-| 2026년 02월 03일 (화) | Machine Learning Advanced | Ch00-00_OT | 3:49:09 |
+| 2026년 02월 02일 (월) | Machine Learning Basic | Ch06-03_기초 정량평가 방법론 | 1:27:58 |
+| ✅ 2026년 02월 03일 (화) | Machine Learning Advanced | Ch00-00_OT | 3:49:09 |
 | 2026년 02월 04일 (수) | Machine Learning Advanced | Ch02-02_사례를 통해서 배우는 파생 변수 만들기 (실습) | 3:09:38 |
 | 2026년 02월 05일 (목) | Machine Learning Advanced | Ch04-02_머신러닝 기본 모델 (실습) | 3:14:59 |
 | 2026년 02월 06일 (금) | Machine Learning Advanced | Ch07-01_캐글 대회에서 사용하는 팁 (이론) | 2:20:54 |
