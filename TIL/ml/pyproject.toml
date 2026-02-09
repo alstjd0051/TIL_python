@@ -3,12 +3,16 @@ name = "ml"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13,<3.14"
+requires-python = ">=3.12,<3.13"
 dependencies = [
+    "category-encoders>=2.9.0",
+    "gdown==4.7.1",
     "graphviz>=0.21",
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
+    "mplfinance==0.12.10b0",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
+    "pykrx>=1.0.51",
     "seaborn>=0.13.2",
 ]
