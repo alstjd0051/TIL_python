@@ -3,9 +3,4 @@
 **/crawled_python_libraries_*.csv
 .env
 TIL/ml/eda_basic_practice.ipynb
-
-# 대용량 데이터 파일 (GitHub 100MB 제한 초과)
-TIL/ml/data/credits.csv
-TIL/ml/data/ratings.csv
-TIL/ml/data/prices-split-adjusted.csv
-TIL/ml/data/stock_details_5_years.csv
+*.zip
