@@ -53,5 +53,5 @@ jobs:
             --ExecutePreprocessor.timeout=300 \
             --ExecutePreprocessor.kernel_name=python3 \
             "TIL/ml/사례를_통해서_배우는_파생_변수_만들기_2.ipynb" \
-            --output /dev/null
+            --output /tmp/notebook_output.ipynb
           echo "✅ 노트북 실행 검증 완료"
