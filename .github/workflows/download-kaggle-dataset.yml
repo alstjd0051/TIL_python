@@ -1,0 +1,57 @@
+name: Kaggle 데이터셋 다운로드 및 노트북 검증
+
+on:
+  push:
+    paths:
+      - 'TIL/ml/**'
+  pull_request:
+    paths:
+      - 'TIL/ml/**'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  download-and-validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: uv 설치
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 의존성 설치
+        run: |
+          uv sync
+          uv pip install kaggle nbconvert nbformat ipykernel
+
+      - name: Kaggle 데이터셋 다운로드
+        run: |
+          uv run kaggle datasets download -d gpandi007/usa-housing-dataset -p TIL/ml/data/ --unzip
+          echo "✅ 데이터셋 다운로드 완료"
+          ls -la TIL/ml/data/housing_*.csv
+
+      - name: 노트북 실행 검증
+        run: |
+          uv run jupyter nbconvert \
+            --to notebook \
+            --execute \
+            --ExecutePreprocessor.timeout=300 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            "TIL/ml/사례를_통해서_배우는_파생_변수_만들기_2.ipynb" \
+            --output /dev/null
+          echo "✅ 노트북 실행 검증 완료"
