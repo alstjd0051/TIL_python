@@ -12,6 +12,8 @@ on:
 jobs:
   download-and-validate:
     runs-on: ubuntu-latest
+    # Dependabot PR은 secrets 접근이 불가하므로 건너뛰기
+    if: github.actor != 'dependabot[bot]'
     permissions:
       contents: read
 
