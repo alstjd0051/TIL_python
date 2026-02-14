@@ -4,3 +4,4 @@
 .env
 TIL/ml/eda_basic_practice.ipynb
 *.zip
+*.pkl

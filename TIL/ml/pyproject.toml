@@ -6,15 +6,22 @@ readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "category-encoders>=2.9.0",
+    "eli5>=0.16.0",
     "gdown==4.7.1",
     "graphviz>=0.21",
     "ipykernel>=7.1.0",
+    "lightgbm>=4.6.0",
     "matplotlib>=3.10.8",
+    "mlxtend>=0.24.0",
     "mplfinance==0.12.10b0",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
+    "pyarrow>=23.0.0",
+    "pydotplus>=2.0.2",
     "pykrx>=1.0.51",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "tqdm>=4.67.3",
     "xgboost>=3.1.3",
+    "yfinance>=1.1.0",
 ]
