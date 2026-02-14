@@ -124,7 +124,7 @@ graphviz==0.21
 joblib==1.5.3
 kiwisolver==1.4.9
 matplotlib==3.10.8
-pillow==12.1.0
+pillow==12.1.1
 pyparsing==3.3.2
 scikit-learn==1.8.0
 seaborn==0.13.2
