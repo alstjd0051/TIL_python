@@ -3,43 +3,47 @@ name: Update README with Schedule
 on:
   schedule:
     # 매주 평일(월~금) 한국시간 00:00 (일~목 UTC 15:00, KST = UTC+9)에 실행
-    - cron: '0 15 * * 0-4'
+    - cron: "0 15 * * 0-4"
   workflow_dispatch: # 수동 실행도 가능하도록
+
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 저장소에 커밋/푸시할 권한 필요
+      contents: write # 저장소에 커밋/푸시할 권한 필요
 
     steps:
-      - name: Checkout repository
+      - name: 저장소 체크아웃
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 전체 히스토리 가져오기
+          fetch-depth: 0 # 전체 히스토리 가져오기
 
-      - name: Install uv
+      - name: uv 설치
         uses: astral-sh/setup-uv@v5
         with:
           version: "latest"
           enable-cache: true
 
-      - name: Set up Python
+      - name: Python 설정
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
-      - name: Install dependencies
+      - name: 의존성 설치
         run: |
           uv sync
 
-      - name: Generate README
+      - name: README 생성
         id: generate
         run: |
           uv run python freeboards/generate_readme.py
         continue-on-error: false
 
-      - name: Check for changes
+      - name: 변경사항 확인
         id: check-changes
         run: |
           if git diff --quiet README.md; then
@@ -51,7 +55,7 @@ jobs:
             git diff README.md
           fi
 
-      - name: Commit and push changes
+      - name: 커밋 및 푸시
         if: steps.check-changes.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"

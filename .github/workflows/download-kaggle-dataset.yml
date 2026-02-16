@@ -3,11 +3,15 @@ name: Kaggle 데이터셋 다운로드 및 노트북 검증
 on:
   push:
     paths:
-      - 'TIL/ml/**'
+      - "TIL/ml/**"
   pull_request:
     paths:
-      - 'TIL/ml/**'
+      - "TIL/ml/**"
   workflow_dispatch: # 수동 실행 가능
+
+concurrency:
+  group: kaggle-validate-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   download-and-validate:
@@ -38,8 +42,8 @@ jobs:
 
       - name: 의존성 설치
         run: |
-          uv sync
-          uv pip install kaggle nbconvert nbformat ipykernel
+          uv sync --group dev
+          uv pip install kaggle
 
       - name: Kaggle 데이터셋 다운로드
         run: |
