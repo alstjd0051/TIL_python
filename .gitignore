@@ -4,4 +4,6 @@
 .env
 TIL/ml/eda_basic_practice.ipynb
 *.zip
-*.pkl__pycache__/
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
