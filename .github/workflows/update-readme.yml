@@ -1,6 +1,9 @@
 name: Update README with Schedule
 
 on:
+  push:
+    paths:
+      - 'freeboards/asset/schedule.csv'
   schedule:
     # 매주 평일(월~금) 한국시간 00:00 (일~목 UTC 15:00, KST = UTC+9)에 실행
     - cron: "0 15 * * 0-4"
@@ -40,7 +43,7 @@ jobs:
       - name: README 생성
         id: generate
         run: |
-          uv run python freeboards/generate_readme.py
+          uv run python -m freeboards.generate_readme
         continue-on-error: false
 
       - name: 변경사항 확인

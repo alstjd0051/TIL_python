@@ -4,11 +4,22 @@
 
 ## 전체 요약
 
-- 수강 일자 수: 152일
-- 클립 시간 총합: 43:57:26
-- 일자별 수강 시간 총합: 235:31:58
+| 항목 | 값 |
+|---|---|
+| 수강 일자 수 | **152일** |
+| 클립 시간 총합 | 43:57:26 |
+| 일자별 수강 시간 총합 | 235:31:58 |
 
-## 연도 포함 수강 일자별 상세 내역
+## 진도율
+
+```
+[█████░░░░░░░░░░░░░░░] 25.0% (38/152일)
+```
+
+## 월별 수강 내역
+
+<details>
+<summary><b>2025년 12월</b> - 7일, 수강 시간: 9:06:57</summary>
 
 | 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
 |-----------|--------|--------|----------------|
@@ -19,6 +30,14 @@
 | 2025년 12월 29일 (월) | Part2 파이썬 라이브러리 활용 | CH02-05. 데이터 합치기, 쪼개기 | 0:52:33 |
 | 2025년 12월 30일 (화) | Part 1. 파이썬 라이브러리를 활용한 기초 프로젝트 | 03. 인코딩과 디코딩 | 1:20:13 |
 | 2025년 12월 31일 (수) | Part 1. 파이썬 라이브러리를 활용한 기초 프로젝트 | 03. 문자열 다루기 - txtwrap | 1:30:30 |
+
+</details>
+
+<details>
+<summary><b>2026년 01월</b> - 21일, 수강 시간: 43:44:16</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 01월 02일 (금) | Part 1. 파이썬 라이브러리를 활용한 기초 프로젝트 | 06. 미니 프로젝트 실습 | 1:56:41 |
 | 2026년 01월 05일 (월) | Part3. 웹 크롤링 프로젝트 | 04.개발 환경 구축 | 1:40:05 |
 | 2026년 01월 06일 (화) | Part3. 웹 크롤링 프로젝트 | 01. 네이버 API 사용 신청하기 | 1:34:09 |
@@ -40,6 +59,14 @@
 | 2026년 01월 28일 (수) | Machine Learning Basic | Ch03-04_선형회귀 모델링 방법론 실습 | 1:48:50 |
 | 2026년 01월 29일 (목) | Machine Learning Basic | Ch04-04_데이터의 군집화 방법론 | 2:28:11 |
 | 2026년 01월 30일 (금) | Machine Learning Basic | Ch05-04_협업 필터링을 활용한 평점 예측 | 1:33:55 |
+
+</details>
+
+<details  open>
+<summary><b>2026년 02월 (현재)</b> - 17일, 수강 시간: 25:18:05</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 02월 02일 (월) | Machine Learning Basic | Ch06-03_기초 정량평가 방법론 | 1:27:58 |
 | 2026년 02월 03일 (화) | Machine Learning Advanced | Ch00-00_OT | 3:49:09 |
 | 2026년 02월 04일 (수) | Machine Learning Advanced | Ch02-02_사례를 통해서 배우는 파생 변수 만들기 (실습) | 3:09:38 |
@@ -57,6 +84,14 @@
 | 2026년 02월 25일 (수) | Part4. 업무 자동화 프로젝트 | 01.프로젝트 개요 | 0:20:32 |
 | 2026년 02월 26일 (목) | Part5. 데이터 분석 및 시각화 프로젝트 | 01. 판다스 라이브러리와 데이터프레임 | 0:40:39 |
 | 2026년 02월 27일 (금) | Part5. 데이터 분석 및 시각화 프로젝트 | 01. 엑셀에서 데이터프레임 불러오기 (read_excel) | 0:35:57 |
+
+</details>
+
+<details>
+<summary><b>2026년 03월</b> - 21일, 수강 시간: 39:10:11</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 03월 03일 (화) | Part5. 데이터 분석 및 시각화 프로젝트 | 04. 행과 열의 이름 바꾸기(rename) | 0:31:26 |
 | 2026년 03월 04일 (수) | Part5. 데이터 분석 및 시각화 프로젝트 | 07. 데이터프레임 결합하기 (concat) | 0:30:35 |
 | 2026년 03월 05일 (목) | Part5. 데이터 분석 및 시각화 프로젝트 | 03. 데이터프레임의 인덱싱과 슬라이싱 (loc와 iloc) | 0:53:13 |
@@ -78,6 +113,14 @@
 | 2026년 03월 27일 (금) | Computer Vision Advanced | OT | 2:53:10 |
 | 2026년 03월 30일 (월) | Computer Vision Advanced | Object Detection Overview | 1:22:09 |
 | 2026년 03월 31일 (화) | Computer Vision Advanced | Neck | 1:50:53 |
+
+</details>
+
+<details>
+<summary><b>2026년 04월</b> - 22일, 수강 시간: 30:01:51</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 04월 01일 (수) | Computer Vision Advanced | CNN-based Segmentation_U-Net | 1:25:51 |
 | 2026년 04월 02일 (목) | Computer Vision Advanced | CV Trends | 1:50:32 |
 | 2026년 04월 03일 (금) | Part 7. VAE, GAN, Diffusion 생성모델 | Ch01-01. Vision 생성모델 Intro | 0:59:35 |
@@ -100,6 +143,14 @@
 | 2026년 04월 28일 (화) | Natural Language Processing Advanced | BPE 구현하기 | 1:24:20 |
 | 2026년 04월 29일 (수) | Natural Language Processing Advanced | Decoder Model (GPT1) 이해하기 | 0:24:17 |
 | 2026년 04월 30일 (목) | Natural Language Processing Advanced | GPT Generation 구현하기 | 1:02:46 |
+
+</details>
+
+<details>
+<summary><b>2026년 05월</b> - 19일, 수강 시간: 15:05:15</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 05월 01일 (금) | Natural Language Processing Advanced | Encoder-Decoder Model (BART) 이해하기 | 0:48:25 |
 | 2026년 05월 04일 (월) | Natural Language Processing Advanced | BERT 이후의 모델 이해하기 | 0:45:55 |
 | 2026년 05월 06일 (수) | Natural Language Processing Advanced | LLM 최신 트렌드 이해하기 | 0:39:28 |
@@ -119,6 +170,14 @@
 | 2026년 05월 27일 (수) | Information Retrieval | Vector 유사도 검색 실습 - Elasticsearch | 0:20:38 |
 | 2026년 05월 28일 (목) | Information Retrieval | Vector 유사도 검색 실습 - Faiss | 0:15:22 |
 | 2026년 05월 29일 (금) | Information Retrieval | ColBERT를 이용한 Vector 유사도 검색 실습 | 0:25:47 |
+
+</details>
+
+<details>
+<summary><b>2026년 06월</b> - 22일, 수강 시간: 29:52:13</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 06월 01일 (월) | Information Retrieval | LLM JSON mode, function calling 실습 | 0:30:44 |
 | 2026년 06월 02일 (화) | Information Retrieval | RAG 실습 | 0:23:51 |
 | 2026년 06월 03일 (수) | Information Retrieval 대회 | 대회 소개 | 0:46:02 |
@@ -141,6 +200,14 @@
 | 2026년 06월 26일 (금) | Optical Character Reader (OCR) | 인식기 구조 이해하기 | 1:35:28 |
 | 2026년 06월 29일 (월) | Optical Character Reader (OCR) | ParSeq 구현체 알아보기 | 1:59:38 |
 | 2026년 06월 30일 (화) | OCR Detector 대회 | 대회 소개 | 2:13:26 |
+
+</details>
+
+<details>
+<summary><b>2026년 07월</b> - 23일, 수강 시간: 43:13:10</summary>
+
+| 수강 일자 | 파트명 | 클립명 | 일자별 수강 시간 |
+|-----------|--------|--------|----------------|
 | 2026년 07월 01일 (수) | Recommender System Basic | Collaborative Filtering (상) | 2:35:25 |
 | 2026년 07월 02일 (목) | Recommender System Basic | Deep Learning for Recommendation (상) | 1:43:39 |
 | 2026년 07월 03일 (금) | Recommender System Basic | Content-based & Context-aware Approaches | 1:53:02 |
@@ -164,3 +231,5 @@
 | 2026년 07월 29일 (수) | Part 2. n가지 접근법으로 풀어보며 익히는 코딩 테스트 300제 | 31. 문제 (31) | 2:13:37 |
 | 2026년 07월 30일 (목) | Part 2. n가지 접근법으로 풀어보며 익히는 코딩 테스트 300제 | 55. 문제 (55) | 1:27:34 |
 | 2026년 07월 31일 (금) | Part 2. n가지 접근법으로 풀어보며 익히는 코딩 테스트 300제 | 77. 문제 (77) | 1:57:45 |
+
+</details>
