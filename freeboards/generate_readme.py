@@ -95,9 +95,13 @@ def generate_readme_markdown() -> str:
     total_clip_seconds = int(date_summary['클립 시간 합계(초)'].sum())
     total_daily_seconds = int(date_summary['일자별 수강 시간(초)'].sum())
 
-    # 오늘 기준 진도율 계산
-    completed_days = date_summary[date_summary['날짜객체'].apply(lambda x: x.date() <= today)].shape[0]
-    progress_bar = _build_progress_bar(completed_days, total_days)
+    # 오늘 기준 진도율 계산 (캘린더 날짜 기준)
+    first_date = date_summary['날짜객체'].min().date()
+    last_date = date_summary['날짜객체'].max().date()
+    total_calendar_days = (last_date - first_date).days + 1
+    elapsed_calendar_days = min((today - first_date).days + 1, total_calendar_days)
+    elapsed_calendar_days = max(elapsed_calendar_days, 0)
+    progress_bar = _build_progress_bar(elapsed_calendar_days, total_calendar_days)
 
     # 월별 그룹 생성
     monthly_groups = defaultdict(list)
@@ -123,7 +127,7 @@ def generate_readme_markdown() -> str:
         "## 진도율",
         "",
         f"```",
-        f"{progress_bar} ({completed_days}/{total_days}일)",
+        f"{progress_bar} ({elapsed_calendar_days}/{total_calendar_days}일)",
         f"```",
         "",
         "## 월별 수강 내역",
