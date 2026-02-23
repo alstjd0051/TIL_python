@@ -66,4 +66,5 @@ jobs:
           git add README.md
           git commit -m "자동 업데이트: 수강 일정 README 업데이트 [skip ci]"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git pull --rebase origin main
           git push origin HEAD:main
