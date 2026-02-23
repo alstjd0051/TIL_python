@@ -1,0 +1,318 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "F3OZ3cAUSNfKOTgjiuc9iedOlBU",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 601711,
+    "resultsPerPage": 9
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d7WVRgDwn7omT81N8pN_aR-jaFw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OAIEYwmRijw"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-27T09:01:51Z",
+        "channelId": "UCf9yTGvaf5HL8CCPxIanENg",
+        "title": "이런 게 있었다고? 해외에선 이미 난리 난 AI 업무 자동화 끝판왕",
+        "description": "영상 내 무료자료 보러 가기 https://www.alinn.co.kr/channels/L2NoYW5uZWxzLzE4Mjc0/A00003/posts/701279 수강생 만족도 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OAIEYwmRijw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OAIEYwmRijw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OAIEYwmRijw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "알린 ALINN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-27T09:01:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mPz6yM3QziAS4iOAwFbr0Bl_Dyk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oKOuAt7uUcg"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-11T02:48:25Z",
+        "channelId": "UCzVC0uLYSZa780yJaGD8sxQ",
+        "title": "3시간 걸릴 일을 10분만에! 자동화 종결 선언합니다",
+        "description": "업무 자동화 툴을 프롬프트 단 1-2줄로 만들 수 있습니다. 비용은 제로, 한글 지원까지 초보자들도 이 방법이면 누구나 효율화를 이룰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oKOuAt7uUcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oKOuAt7uUcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oKOuAt7uUcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김효율의 AI 개발단",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-11T02:48:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xcfZcNQislZEzNIRZOl37node88",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3gFsSILDQKo"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-08T03:31:05Z",
+        "channelId": "UCYg51KBo-UcA4QILcYl5LEw",
+        "title": "90%는 모르는 쇼핑몰 자동화 꿀팁 #MAKE #메이크 #AI자동화 #업무자동화 #쇼핑몰자동화",
+        "description": "MAKE 자동화 해보기 https://lrl.kr/VSa8 윤자동 올인원 멤버십 OPEN! 한 번의 선택으로 윤자동의 모든 지식을! 이제 모든 강의를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3gFsSILDQKo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3gFsSILDQKo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3gFsSILDQKo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "윤자동",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-08T03:31:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j-Yip2kyqs95jABCvHTNvqhDBCM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j9QwMDTb9ds"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-20T23:06:03Z",
+        "channelId": "UC3o9CZuGv2FbHBqw3kHYqbw",
+        "title": "업무 자동화로 칼퇴하는 법: AI 직원에게 반복 업무 70% 맡기기 (쌩초보 가능)",
+        "description": "AI가 좋은 건 알겠는데, 당장 내 업무에 어떻게 적용해야 할지 막막하셨나요?\" 매일 반복되는 엑셀 정리, 이메일 발송, 고객 응대.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j9QwMDTb9ds/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j9QwMDTb9ds/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j9QwMDTb9ds/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "3분 자동화",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-20T23:06:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T6SfqjPe6mObUN0lQLQsFY7eKK0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NF2eMWmV180"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-24T01:44:05Z",
+        "channelId": "UCztt42h03X49HFRGW9--Bhg",
+        "title": "상위 1%만 몰래 쓰는 업무 자동화 비법, 클로드 스킬(Claude Skill) 이렇게 세팅하면 일이 사라집니다",
+        "description": "업무자동화 #ClaudeSkill #자동화 #클로드스킬 당신의 업무 속도가 남들보다 2배 느린 이유, 바로 반복되는 잔무 때문입니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NF2eMWmV180/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NF2eMWmV180/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NF2eMWmV180/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AI 겸임교수 이종범 ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-24T01:44:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NU4ExhsQHPB9COk-QtkxzCmLKRM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OsOB-0oO-9M"
+      },
+      "snippet": {
+        "publishedAt": "2024-02-15T06:15:06Z",
+        "channelId": "UCn_hDhkyCP-5DlNovmpmKgA",
+        "title": "업무 자동화 만들어주고 퇴사한 썰",
+        "description": "업무 자동화 만들어주고 퇴사한 썰.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OsOB-0oO-9M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OsOB-0oO-9M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OsOB-0oO-9M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "달콤썰_마라썰",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-02-15T06:15:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZsB4E3LUigLXULZlGeuNAt8KjZE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "d4pQ6pDsD1k"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-01T11:01:15Z",
+        "channelId": "UCvDiU_-zeBNmRvY_fzMI_Ww",
+        "title": "&quot;이거 쓴 뒤로 야근이 사라졌다&quot;는 해외 천재들이 만든 업무 자동화 툴 | Genspark 젠스파크",
+        "description": "엑셀, 이젠 머리 아프게 하지 마세요. 복잡한 데이터도, 지저분한 자료도 젠스파크 하나면 정리부터 보고서까지 한 번에 됩니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d4pQ6pDsD1k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d4pQ6pDsD1k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d4pQ6pDsD1k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "공여사들",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-01T11:01:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "81o88t004UIRP67neSEdBA13JR0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "obhyzqJQd9k"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-05T07:00:47Z",
+        "channelId": "UCf9yTGvaf5HL8CCPxIanENg",
+        "title": "모든 업무는 이거 하나로 전부 다 가능합니다. 해외에서 난리난 AI 자동화 끝판왕 &#39;젠스파크&#39; 활용법",
+        "description": "차세대 올인원 AI 워크스페이스 'Genspark' 바로 써보기* https://buly.kr/613945s *안 들어오면 손해인 ALINN 구독자 전용 오픈카 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/obhyzqJQd9k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/obhyzqJQd9k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/obhyzqJQd9k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "알린 ALINN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-05T07:00:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bUf2fNn1TFuvtM0qHx9f8gu-fkk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WrETuMoY9yA"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-15T08:00:00Z",
+        "channelId": "UCSkpTOEl_zW6b4Y7M_Prefg",
+        "title": "AI를 잘쓰는 직장인은 이렇게 업무를 자동화 합니다 | Real AX EP.3",
+        "description": "개인으로서 직장인은 어떻게 AI를 사용하는지 궁금하셨죠? SK, 카카오, 현대차를 거쳐 현재 200~300명 규모의 스타트업의 피플 실장 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WrETuMoY9yA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WrETuMoY9yA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WrETuMoY9yA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "일잘러 장피엠",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-15T08:00:00Z"
+      }
+    }
+  ]
+}
