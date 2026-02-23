@@ -7,6 +7,14 @@ freeboards 프로젝트 실행 시 README.md에 일자 스케줄을 출력합니
 - ✅ = 오늘 날짜 표시
 """
 
+import sys
+from pathlib import Path
+
+# 직접 실행 시 프로젝트 루트를 path에 추가 (uv run freeboards/generate_readme.py)
+_project_root = Path(__file__).resolve().parent.parent
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -80,7 +88,7 @@ def generate_readme_markdown() -> str:
         '클립명': unique_join
     }).reset_index()
 
-    date_summary.columns = ['수강 일자', '클립 시간 합계(초)', '일자별 수강 시간(초)', '날짜객체', '파트명', '클립명']
+    date_summary.columns = pd.Index(['수강 일자', '클립 시간 합계(초)', '일자별 수강 시간(초)', '날짜객체', '파트명', '클립명'])
     date_summary['클립 시간 합계'] = date_summary['클립 시간 합계(초)'].apply(seconds_to_time)
     date_summary['일자별 수강 시간'] = date_summary['일자별 수강 시간(초)'].apply(seconds_to_time)
 
