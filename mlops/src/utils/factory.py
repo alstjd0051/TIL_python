@@ -1,4 +1,4 @@
-from src.model.movie_predictor import MoviePredictor
+from model.movie_predictor import MoviePredictor
 
 class ModelFactory:
     _models = {

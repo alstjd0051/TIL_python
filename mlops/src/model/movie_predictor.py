@@ -4,7 +4,7 @@ import pickle
 
 import numpy as np
 
-from src.utils.utils import model_dir
+from utils.utils import model_dir
 
 
 class MoviePredictor:
