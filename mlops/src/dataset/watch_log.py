@@ -41,7 +41,7 @@ class WatchLogDataset:
             self.scaler = StandardScaler()
             self.features = self.scaler.fit_transform(features)
 
-    def decode_content_id(self, encoded_id):
+    def decode_content_id(self, encoded_id: int) -> str:
         return self.contents_id_map[encoded_id]
 
     @property

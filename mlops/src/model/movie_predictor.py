@@ -4,33 +4,39 @@ import pickle
 
 import numpy as np
 
-from utils.utils import model_dir
+from src.utils.utils import model_dir
 
 
 class MoviePredictor:
     name = "movie_predictor"
 
-    def __init__(self, input_dim, hidden_dim, num_classes):
+    def __init__(self, input_dim: int, hidden_dim: int, num_classes: int):
         self.weights1 = np.random.randn(input_dim, hidden_dim) * 0.01
         self.bias1 = np.zeros((1, hidden_dim))
         self.weights2 = np.random.randn(hidden_dim, num_classes) * 0.01
         self.bias2 = np.zeros((1, num_classes))
 
-    def relu(self, x):
+    def load_state_dict(self, state_dict: dict):
+        self.weights1 = state_dict["weights1"]
+        self.bias1 = state_dict["bias1"]
+        self.weights2 = state_dict["weights2"]
+        self.bias2 = state_dict["bias2"]
+
+    def relu(self, x: np.ndarray) -> np.ndarray:
         return np.maximum(0, x)
 
-    def softmax(self, x):
+    def softmax(self, x: np.ndarray) -> np.ndarray:
         exp_x = np.exp(x - np.max(x, axis=1, keepdims=True))
         return exp_x / np.sum(exp_x, axis=1, keepdims=True)
 
-    def forward(self, x):
+    def forward(self, x: np.ndarray) -> np.ndarray:
         self.z1 = np.dot(x, self.weights1) + self.bias1
         self.a1 = self.relu(self.z1)
         self.z2 = np.dot(self.a1, self.weights2) + self.bias2
         self.output = self.softmax(self.z2)
         return self.output
 
-    def backward(self, x, y, output, lr=0.001):
+    def backward(self, x: np.ndarray, y: np.ndarray, output: np.ndarray, lr: float = 0.001):
         m = len(x)
 
         dz2 = (output - y) / m
@@ -47,10 +53,15 @@ class MoviePredictor:
         self.bias2 -= lr * db2
         self.weights1 -= lr * dw1
         self.bias1 -= lr * db1
-
+    
+    def load_state_dict(self, state_dict: dict):
+        self.weights1 = state_dict["weights1"]
+        self.bias1 = state_dict["bias1"]
+        self.weights2 = state_dict["weights2"]
+        self.bias2 = state_dict["bias2"]
     # 학습 수행 코드
     
-def model_save(model, model_params, epoch, loss, scaler, label_encoder): 
+def model_save(model: MoviePredictor, model_params: dict, epoch: int, loss: float, scaler:dict, label_encoder:dict): 
         """ 
         model: 모델 객체
         model_params: 모델 파라미터 딕셔너리

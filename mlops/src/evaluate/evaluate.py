@@ -1,7 +1,10 @@
 import numpy as np
 
+from src.model.movie_predictor import MoviePredictor
+from src.dataset.data_loader import SimpleDataLoader
 
-def evaluate(model, val_loader):
+
+def evaluate(model: MoviePredictor, val_loader: SimpleDataLoader) -> tuple[float, list[int]]:
     total_loss = 0
     all_predictions = []
 

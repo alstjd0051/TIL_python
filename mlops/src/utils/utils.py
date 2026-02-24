@@ -19,14 +19,14 @@ def project_path():
     )
 
 
-def model_dir(model_name):
+def model_dir(model_name: str) -> str:
     return os.path.join(
         project_path(),
         "models",
         model_name
     )
 
-def auto_increment_run_suffix(name: str, pad=3):
+def auto_increment_run_suffix(name: str, pad: int = 3) -> str:
     suffix = name.split("-")[-1]
     next_suffix = str(int(suffix) + 1).zfill(pad)
     return name.replace(suffix, next_suffix)

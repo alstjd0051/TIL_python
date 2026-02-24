@@ -24,10 +24,10 @@ from alive_progress import alive_it
 init_seed()
 load_dotenv() 
 
-def get_runs(project_name):
+def get_runs(project_name: str) -> list[wandb.Run]:
     return wandb.Api().runs(path=project_name, order="-created_at")
 
-def get_latest_run(project_name):
+def get_latest_run(project_name: str) -> str:
     runs = get_runs(project_name)
     if not runs:
         return f"{project_name}-000"
@@ -35,11 +35,11 @@ def get_latest_run(project_name):
 
 
 def run_train(
-    model_name,
-    num_epochs=10,
-    batch_size=64,
-    hidden_dim=64,
-    lr=0.001,
+    model_name: str,
+    num_epochs: int = 10,
+    batch_size: int = 64,
+    hidden_dim: int = 64,
+    lr: float = 0.001,
 ):
     """
     this is run_train definition.
