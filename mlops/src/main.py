@@ -4,18 +4,35 @@ import fire
 
 from tqdm import tqdm
 
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import time
+
+import wandb
+from dotenv import load_dotenv
 
 from dataset.data_loader import SimpleDataLoader
 from dataset.watch_log import get_datasets
 from evaluate.evaluate import evaluate
 from model.movie_predictor import model_save
 from train.train import train
-from utils.utils import init_seed
+from utils.utils import init_seed, auto_increment_run_suffix
 from utils.factory import ModelFactory
+from alive_progress import alive_it
+
 
 init_seed()
+load_dotenv() 
+
+def get_runs(project_name):
+    return wandb.Api().runs(path=project_name, order="-created_at")
+
+def get_latest_run(project_name):
+    runs = get_runs(project_name)
+    if not runs:
+        return f"{project_name}-000"
+    return runs[0].name
+
 
 def run_train(
     model_name,
@@ -26,8 +43,23 @@ def run_train(
 ):
     """
     this is run_train definition.
-
     """
+    api_key = os.environ.get("WANDB_API_KEY")
+    wandb.login(key=api_key)
+
+    project_name = model_name.replace("_","-")
+    run_name = get_latest_run(project_name)
+    next_run_name = auto_increment_run_suffix(run_name)
+
+    wandb.init(
+        project=project_name,
+        id=next_run_name,
+        name=next_run_name,
+        notes="content-based movie recommend model",
+        tags=["content-based", "movie-recommend","movie", "recommend", "model"],
+        config=locals()
+    )
+
     train_dataset, val_dataset, test_dataset = get_datasets()
     train_loader = SimpleDataLoader(
         train_dataset.features, train_dataset.labels, batch_size=batch_size, shuffle=True
@@ -54,10 +86,14 @@ def run_train(
     # num_epochs = 10
     
 
-    for epoch in tqdm(range(num_epochs), desc="Training", unit="epoch"):
+    for epoch in alive_it(range(num_epochs), title="Training"):
+        time.sleep(.2)
         train_loss = train(model, train_loader, lr=lr)
         val_loss, _ = evaluate(model, val_loader)
-        
+
+        wandb.log({"Loss/Train":train_loss})
+        wandb.log({"Loss/Val":val_loss})
+
         print(
             f"Epoch {epoch +1}/{num_epochs}, "
             f"Train Loss: {train_loss:.4f}, "
@@ -89,6 +125,8 @@ def run_train(
         scaler=train_dataset.scaler,
         label_encoder=train_dataset.label_encoder,
     )
+
+    wandb.finish()
 
 
 

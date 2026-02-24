@@ -39,6 +39,8 @@ dependencies = [
     "tqdm>=4.67.3",
     "types-requests>=2.32.4.20260107",
     "uvicorn>=0.40.0",
+    "wandb>=0.25.0",
+    "weave>=0.52.28",
 ]
 
 [dependency-groups]
