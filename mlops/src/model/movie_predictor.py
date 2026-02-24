@@ -1,4 +1,10 @@
+import datetime
+import os
+import pickle
+
 import numpy as np
+
+from src.utils.utils import model_dir
 
 
 class MoviePredictor:
@@ -41,3 +47,40 @@ class MoviePredictor:
         self.bias2 -= lr * db2
         self.weights1 -= lr * dw1
         self.bias1 -= lr * db1
+
+    # 학습 수행 코드
+    
+def model_save(model, model_params, epoch, loss, scaler, label_encoder): 
+        """ 
+        model: 모델 객체
+        model_params: 모델 파라미터 딕셔너리
+        epoch: 에포크 수
+        loss: 손실 값 
+        scaler: 스케일러 객체
+        label_encoder: 라벨 인코더 객체
+         """
+        save_dir = model_dir(model.name)
+        os.makedirs(save_dir, exist_ok=True)
+
+        current_time = datetime.datetime.now().strftime("%y%m%d%H%M%S")
+        dst = os.path.join(save_dir, f"E{epoch}_T{current_time}.pkl")
+
+        save_data = {
+            "epoch": epoch,
+            "model_params": model_params,
+            "model_state_dict": {
+                "weights1": model.weights1,
+                "bias1": model.bias1,
+                "weights2": model.weights2,
+                "bias2": model.bias2,
+            },
+            "loss": loss,
+            "scaler": scaler,
+            "label_encoder": label_encoder,
+        }
+
+        # 데이터 저장
+        with open(dst, "wb") as f:
+            pickle.dump(save_data, f)
+
+        print(f"Model saved to {dst}")

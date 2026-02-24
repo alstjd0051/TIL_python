@@ -1,6 +1,8 @@
 import numpy as np
+import pysnooper
 
 
+@pysnooper.snoop()
 def train(model, train_loader):
     total_loss = 0
     for features, labels in train_loader:
