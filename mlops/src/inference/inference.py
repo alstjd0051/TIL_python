@@ -5,23 +5,13 @@ import pickle # 모델 저장 파일 로드
 import pandas as pd
 import numpy as np
 
+
 from src.dataset.data_loader import SimpleDataLoader
 from src.dataset.watch_log import WatchLogDataset,get_datasets
 from src.evaluate.evaluate import evaluate
-
-
-sys.path.append(
-    os.path.dirname(
-        os.path.dirname(
-            os.path.dirname(
-                os.path.abspath(__file__)
-            )
-        )
-    )
-)
-
 from src.utils.utils import model_dir
 from src.model.movie_predictor import MoviePredictor
+
 
 
 def load_checkpoint() -> dict:
@@ -63,11 +53,9 @@ def inference(model: MoviePredictor, scaler: dict, label_encoder: dict, data: np
     print(loss, predictions)
     return [dataset.decode_content_id(idx) for idx in predictions]
 
+def recommend_to_df(recommend):
+    return pd.DataFrame(
+        data=recommend,
+        columns="recommend_content_id".split()
+    )
 
-if __name__ == '__main__':
-    checkpoint = load_checkpoint()
-    model, scaler, label_encoder = init_model(checkpoint)
-    # data = np.array([1, 83533, 4508, 7.577, 1204.764])
-    data = np.array([])
-    recommend = inference(model, scaler, label_encoder, data,batch_size=64)
-    print(recommend)

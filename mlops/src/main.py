@@ -19,6 +19,15 @@ from train.train import train
 from utils.utils import init_seed, auto_increment_run_suffix
 from utils.factory import ModelFactory
 from alive_progress import alive_it
+from src.postprocess.postprocess import write_db
+from src.inference.inference import (
+    load_checkpoint,
+    init_model,
+    inference,
+    recommend_to_df
+)
+import numpy as np
+
 
 
 init_seed()
@@ -128,9 +137,24 @@ def run_train(
 
     wandb.finish()
 
+def run_inference(data=None, batch_size=64):
+    checkpoint = load_checkpoint()
+    model, scaler, label_encoder = init_model(checkpoint)
+
+    if data is None:
+        data = []
+
+    data = np.array(data)
+
+    recommend = inference(model, scaler, label_encoder, data, batch_size)
+    print(recommend)
+
+    write_db(recommend_to_df(recommend), "mlops", "recommend")
+    
 
 
 if __name__ == "__main__":
     fire.Fire({
         "train":run_train,
+        "inference": run_inference
     })
