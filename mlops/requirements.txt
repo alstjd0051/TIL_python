@@ -16,7 +16,7 @@ attrs==25.4.0
 babel==2.18.0
 backoff==2.2.1
 beautifulsoup4==4.14.3
-black==26.1.0
+black==26.3.1
 bleach==6.3.0
 cachetools==7.0.1
 category-encoders==2.9.0
